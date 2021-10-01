@@ -25,5 +25,5 @@ kubectl apply -f Kubernetes/deployment.yaml
 kubectl get pods
 
 
-#Deploy using helm
+# Deploy using helm
 helm install backend backend-chart/ --values backend-chart/values.yaml
